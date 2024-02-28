@@ -1,11 +1,22 @@
 ---
 layout: single
 title:  "First post!"
+categories: [Personal, Test, Tech]
+excerpt_separator: <!--more-->
+toc: true
+toc_label: "This is a special table of contents"
+toc_icon: "user-ninja"
+toc_sticky: true
+# classes: wide
 ---
 
 # Welcome to my first post!
 
 Just wanted to make a test post and see how **jekyll** interprets this.
+
+<!--more-->
+
+
 
 > Writing markdown files for personal sites makes way more sense than making the thing out of HTML/CSS or React or something. *- some guy*
 
@@ -96,7 +107,7 @@ I mean there's only ~~one more~~ a few more things to try...
 Like TASK LISTS!
 
 * [x] Task 1 - make a task list
-* [ ] Task 2 - see what the x does
+* [x] Task 2 - see what the x does
 * [ ] Task 3 - Make a sandwich
 * [ ] Task 4 - Use an emoji :joy:
 * [ ] Task 5 - ... Those don't work. Good to know!
